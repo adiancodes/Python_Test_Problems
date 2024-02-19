@@ -1,0 +1,13 @@
+def replace_email():
+    email=input("enter your email   ")
+    enter_old_domain="gmail.com"
+    enter_new_domain="yahoo.com"
+    y=email.index("@")
+    if enter_old_domain in email:
+        new_email=email[:y+1] + enter_new_domain
+        print(new_email)
+    else:
+        print(email)
+
+
+replace_email()
