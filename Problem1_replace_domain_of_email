@@ -1,3 +1,5 @@
+#this code replaces the old domain of an email to a new domain
+
 def replace_email():
     email=input("enter your email   ")
     enter_old_domain="gmail.com"
