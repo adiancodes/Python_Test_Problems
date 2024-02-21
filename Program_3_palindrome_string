@@ -1,0 +1,17 @@
+# to check if a string is palindrome or not
+
+to_check = input("enter a string   ")
+x=len(to_check)
+print(x)
+n=1
+
+
+while (n<x/2):
+    if to_check[n] != to_check[x]:
+        print("the string is not palindrome")
+    n=n+1
+    x=x-1
+    
+
+print("the string is palindrome")
+    
