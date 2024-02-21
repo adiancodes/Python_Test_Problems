@@ -1,3 +1,5 @@
+#this code converts time into seconds
+
 def convert_seconds(seconds):
   hours = seconds // 3600
   minutes = (seconds - hours * 3600) // 60
